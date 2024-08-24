@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+.panel-container {
+    perspective: 100px;
+}
+
+.panel {
+    width: 300px;
+    height: 80px;
+    max-width: 70%;
+    background-color: #33788b;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border: 3px solid lightgreen;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.panel:hover {
+    height: 160px;
+    background-color: pink;
+    color: gray;   
+}
+.panel2:hover{
+    color: green;
+    height: 160px;
+}
+
